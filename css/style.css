@@ -22,40 +22,31 @@ section.module.content {
   padding: 40px 0;
 }
 section.module.parallax {
-  height: 600px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  padding: 240px 0;
+  background-position: 0 0;
 }
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 42px;
-  line-height: 600px;
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  /*background-image: url("../img/demo/_small/1.jpg");*/
-  background-image: url("../img/demo/fireworks.jpg");
+  background-image: url("../img/demo/fireworks2.png");
 }
 section.module.parallax-2 {
-  /*background-image: url("../img/demo/_small/2.jpg");*/
-  background-image: url("../img/demo/space.jpg");
+  background-image: url("../img/demo/space3.jpg");
 }
 section.module.parallax-3 {
-  /*background-image: url("../img/demo/_small/3.jpg");*/
-  background-image: url("../img/demo/birthday_cake.jpg");
+  background-image: url("../img/demo/happybday.jpg");
 }
 section.module.parallax-4 {
-  /*background-image: url("../img/demo/_small/3.jpg");*/
-  background-image: url("../img/demo/sunrise.jpg");
+  background-image: url("../img/demo/candles3.png");
 }
+
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;
@@ -63,12 +54,15 @@ section.module.parallax-4 {
   section.module p {
     font-size: 20px;
   }
+  section.module.parallax {
+    padding: 300px 0;
+  }
   section.module.parallax h1 {
     font-size: 42px;
   }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 96px;
+    font-size: 160px;
   }
 }

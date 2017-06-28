@@ -72,8 +72,8 @@ table {
   HTML & BODY
 ============================================================ */
 body {
-  background-color: #b4b4b4;
-  color: #787878;
+  background-color: #1e1e1e;
+  color: #505050;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 14px;
   line-height: 1.5;
@@ -104,10 +104,10 @@ main {
 ============================================================ */
 .info-bar {
   padding: 5px 0;
-  background-color: #fff;
+  background-color: #1e1e1e;
   text-align: center;
 }
-.info-bar a.icon {
+.info-bar .icon {
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -115,9 +115,8 @@ main {
   padding: 0;
   width: 30px;
   height: 30px;
-  background-image: url("../img/core/icons-dark.png");
-  background-image: url("../img/core/icons-dark.svg"), none;
-  opacity: 0.3;
+  background: url("../img/core/icons-light.png");
+  background-image: url("../img/core/icons-light.svg"), none;
 }
 .info-bar .cmn-tut {
   background-position: 0 0;
@@ -134,10 +133,10 @@ main {
 .info-bar .cmn-archive {
   background-position: -120px 0;
 }
-.info-bar a.icon[data-title]:after {
+.info-bar .icon[data-title]:after {
   opacity: 1;
 }
-.info-bar a.icon[data-title]:hover:after {
+.info-bar .icon[data-title]:hover:after {
   position: absolute;
   top: 100%;
   left: 0;
@@ -230,7 +229,7 @@ header .social a:hover {
 /* site title */
 .site-title {
   padding: 5px 0;
-  background-color: #818181;
+  background-color: black;
   text-align: center;
 }
 .site-title h1 {
@@ -278,7 +277,7 @@ footer .copyright small {
   font-size: 12px;
 }
 footer .copyright a {
-  color: #818181;
+  color: #fff;
 }
 
 @media all and (min-width: 600px) {
@@ -326,7 +325,7 @@ footer .copyright a {
 
 #fusionads a.fusion-text {
   display: block;
-  color: #787878;
+  color: #505050;
 }
 
 #fusionads a.fusion-img {
@@ -343,10 +342,10 @@ footer .copyright a {
 }
 
 #fusionads a.fusion-poweredby {
-  color: #b4b4b4;
+  color: #1e1e1e;
 }
 #fusionads a.fusion-poweredby:hover {
-  color: #818181;
+  color: black;
 }
 
 #close-fusionad {
@@ -369,9 +368,9 @@ footer .copyright a {
 ============================================================ */
 a {
   text-decoration: none;
-  color: #b4b4b4;
+  color: #1e1e1e;
 }
 
 a:hover {
-  color: #818181;
+  color: black;
 }
