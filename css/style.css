@@ -35,16 +35,16 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("../img/demo/fireworks2.png");
+  background-image: url("../img/demo/fireworks.png");
 }
 section.module.parallax-2 {
-  background-image: url("../img/demo/space3.jpg");
+  background-image: url("../img/demo/space.jpg");
 }
 section.module.parallax-3 {
   background-image: url("../img/demo/happybday.jpg");
 }
 section.module.parallax-4 {
-  background-image: url("../img/demo/candles3.png");
+  background-image: url("../img/demo/candles.png");
 }
 
 @media all and (min-width: 600px) {
